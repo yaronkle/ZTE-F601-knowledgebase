@@ -18,32 +18,32 @@ Password: Zte521
 default username and passwords are stored in encrypted binary xml files that can be unblobed.
 less etc/db_default_Lithuania_cfg.xml_extract/1358-1866.zlib_extract/1358-1866
 
-###Default
+### Default
 Browser: admin admin
 XFtp login: admin admin
 Telnet login: root Zte521
 
-###Lithuania
+### Lithuania
 Browser: teoadmin ontadmin
 Ftp login: admin admin
 Telnet login: root 3passAroot
 
-###Portugal
+### Portugal
 Browser: admin 80%V0d@%FaN
 Ftp login: admin admin
 Telnet login: root Zte521
 
-###SeteTec
+### SeteTec
 Browser: admin admin
 Ftp login: admin admin
 Telnet login: root Zte521
 
-###Turkey
+### Turkey
 Browser: admin admin
 Ftp login: admin admin
 Telnet login: root Zte521
 
-###Viettel
+### Viettel
 Browser: admin admin
 Ftp login: admin admin
 Telnet login: root Zte521
