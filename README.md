@@ -11,10 +11,6 @@ Telnet
 Username: root
 Password: Zte521
 
-## DB commands
-
-[sendcmd usage](SENDCMD.md)
-
 ## Usernames and passwords
 
 default username and passwords are stored in encrypted binary xml files that can be unblobed.
@@ -50,6 +46,8 @@ Browser: admin admin
 Ftp login: admin admin
 Telnet login: root Zte521
 
+## DB commands
 
+[sendcmd usage](SENDCMD.md)
 
 
