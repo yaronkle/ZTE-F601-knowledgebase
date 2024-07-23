@@ -50,4 +50,8 @@ Telnet login: root Zte521
 
 [sendcmd usage](SENDCMD.md)
 
+## Tag params
+
+[tagparams](TAGPARAM.md)
+
 
