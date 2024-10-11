@@ -41,10 +41,29 @@ Some parameters are accessible from the web, some are not.
 0x896 falsify_defend_mode
 ```
 
+## SetMac
+
+SetMac is a utility that allows modifying the TagParam values
+
+```
+# setmac     
+Usage format:
+    setmac <action type> [<para_id>] [<hex string para_val>]
+    setmac show
+action type:
+    1-set param; (exam: setmac 1 512 sn:20081106)
+    2-get param; (exam: setmac 2 512)
+    3-del param; (exam: setmac 3 512)
+    4-format region; (exam: setmac 4)
+```
+
 
 ## ZTE software version (6.0.2)
 
 The displayed software version of the ZTE F6.0.1 is a summation of the actual SW version and the OnuMode.
 For example, If the OneMode is "1" (0x31), the displayed SW version is 6.0.2.
 
-OneMode can be modified by directly writing to address 0x890
+OneMode can be modified by directly writing to address 0x890.
+The setmac utility can be used to delete the value and set the SW version to 6.0.1:
+```# setmac 3 2192```
+
